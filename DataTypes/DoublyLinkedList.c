@@ -6,6 +6,7 @@
 #define END_ASCII_DIGIT 58
 #define MAX_DIGIT_STRING_SIZE 512
 
+
 static Node* createNode (const Digit digit) {
     Node* node = malloc (sizeof (Node));
     if (node != NULL) {
