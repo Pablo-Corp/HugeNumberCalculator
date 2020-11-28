@@ -6,6 +6,7 @@
 #define SIZE_OF_EXPONENT_MARKUP 2
 #define EXPONENT_MARKUP " E"
 
+
 static char SignToChar (const Sign sign) {
     switch (sign) {
     case PLUS:
